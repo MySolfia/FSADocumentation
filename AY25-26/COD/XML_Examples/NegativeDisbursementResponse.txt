@@ -1,0 +1,72 @@
+O*N05TG05525       ,CLS=CRND26OP,XXX,BAT=000000000000000000002025-01-31T14:34:00.0200000001,
+<?xml version="1.0" encoding="UTF-8"?>
+<CommonRecord xmlns="http://www.ed.gov/FSA/COD/2024/v5.0c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.ed.gov/FSA/COD/2024/v5.0bc CommonRecord5.0c.xsd">
+<TransmissionData>
+<DocumentID>2025-01-31T14:34:00.0200000001</DocumentID>
+<CreatedDateTime>2025-01-31T14:37:08.26</CreatedDateTime>
+<Source>
+<COD>
+<RoutingID>00000001</RoutingID>
+</COD>
+</Source>
+<Destination>
+<School>
+<RoutingID>10005525</RoutingID>
+</School>
+</Destination>
+<FullResponseCode>F</FullResponseCode>
+</TransmissionData>
+<ReportingSchool>
+<RoutingID>10005525</RoutingID>
+<AttendedSchool>
+<RoutingID>10005525</RoutingID>
+<Student>
+<Index>
+<SSN>001025651</SSN>
+<BirthDate>1967-09-22</BirthDate>
+<LastName>MARTENEZ</LastName>
+</Index>
+<Pell>
+<FinancialAwardYear>2026</FinancialAwardYear>
+<AdditionalEligibilityIndicator>false</AdditionalEligibilityIndicator>
+<Response>
+<ResponseCode>A</ResponseCode>
+<YTDDisbursementAmount>200.00</YTDDisbursementAmount>
+<IASGEligible>true</IASGEligible>
+<CFHEligible>true</CFHEligible>
+<TotalEligibilityUsed>3.542</TotalEligibilityUsed>
+<ScheduledGrant>5645.00</ScheduledGrant>
+<LifetimeEligibilityUsed>3.542</LifetimeEligibilityUsed>
+</Response>
+<Disbursement Number="3">
+<DisbursementAmount>0.00</DisbursementAmount>
+<DisbursementDate>2025-12-31</DisbursementDate>
+<DisbursementReleaseIndicator>true</DisbursementReleaseIndicator>
+<DisbursementSequenceNumber>68</DisbursementSequenceNumber>
+<EnrollmentIntensity>53</EnrollmentIntensity> 
+<Response>
+<ResponseCode>A</ResponseCode>
+<PreviousSequenceNumber>67</PreviousSequenceNumber>
+</Response>
+</Disbursement>
+</Pell>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</Student>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</AttendedSchool>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</ReportingSchool>
+<Response>
+<DocumentTypeCode>ND</DocumentTypeCode>
+<DocumentStatusCode>A</DocumentStatusCode>
+<ProcessDate>2025-01-31</ProcessDate>
+</Response>
+</CommonRecord>
+O*N95TG05525       ,CLS=CRND26OP,XXX,BAT=000000000000000000002025-01-31T14:34:00.0200000001,

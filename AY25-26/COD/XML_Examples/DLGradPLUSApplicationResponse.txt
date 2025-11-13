@@ -1,0 +1,116 @@
+O*N05TG01003       ,CLS=CRSP26OP,XXX,BAT=000000000000000000002021-08-19T14:28:37.0400000001,
+<?xml version="1.0" encoding="UTF-8"?>
+<CommonRecord xmlns="http://www.ed.gov/FSA/COD/2024/v5.0c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.ed.gov/FSA/COD/2024/v5.0bc CommonRecord5.0c.xsd">
+<TransmissionData>
+<DocumentID>2025-08-15T14:34:48.0400000001</DocumentID>
+<CreatedDateTime>2025-08-15T14:35:14.83</CreatedDateTime>
+<Source>
+<COD>
+<RoutingID>00000001</RoutingID>
+</COD>
+</Source>
+<Destination>
+<School>
+<RoutingID>52206342</RoutingID>
+</School>
+</Destination>
+<FullResponseCode>F</FullResponseCode>
+</TransmissionData>
+<ReportingSchool>
+<RoutingID>52206342</RoutingID>
+<AttendedSchool>
+<RoutingID>52206342</RoutingID>
+<Student>
+            <Index>
+               <SSN>014539668</SSN>
+               <BirthDate>1946-08-16</BirthDate>
+               <LastName>SHEPHERD</LastName>
+            </Index>
+            <Name>
+               <FirstName>LILLY</FirstName>
+               <MiddleName>Vivian</MiddleName>
+               <Suffix>Jr</Suffix>
+            </Name>
+            <Contacts>
+               <PermanentAddress>
+                  <AddressLine>123 ROAD</AddressLine>
+                  <City>CITY</City>
+                  <StateProvinceCode>CA</StateProvinceCode>
+                  <PostalCode>289833</PostalCode>
+               </PermanentAddress>
+               <Phone>
+                  <PhoneNumber>1209999999</PhoneNumber>
+               </Phone>
+               <Email>
+                  <EmailAddress>LYDIA.YI@GMAIL.COM</EmailAddress>
+               </Email>
+            </Contacts>
+            <DLPLUS>
+               <FinancialAwardYear>2026</FinancialAwardYear>
+               <DefaultOverpayCode>Y</DefaultOverpayCode>
+               <ApplicationID>22</ApplicationID>
+               <Borrower>
+                  <Index>
+                     <SSN>014539668</SSN>
+                     <BirthDate>1946-08-16</BirthDate>
+                     <LastName>SHEPHERD</LastName>
+                  </Index>
+                  <Name>
+                     <FirstName>LILLY</FirstName>
+                     <MiddleName>Vivian</MiddleName>
+                     <Suffix>Sr</Suffix>
+                  </Name>
+                  <Contacts>
+                     <PermanentAddress>
+                        <AddressLine>123 ROAD</AddressLine>
+                        <City>CITY</City>
+                        <StateProvinceCode>CA</StateProvinceCode>
+                        <PostalCode>289833</PostalCode>
+                     </PermanentAddress>
+                     <Phone>
+                        <PhoneNumber>1209999999</PhoneNumber>
+                     </Phone>
+                     <Email>
+                        <EmailAddress>LYDIA.YI@GMAIL.COM</EmailAddress>
+                     </Email>
+                  </Contacts>
+                  <Citizenship>
+                     <CitizenshipStatusCode>1</CitizenshipStatusCode>
+                  </Citizenship>
+                  <DefaultOverpayCode>Y</DefaultOverpayCode>
+               </Borrower>
+               <Response>
+                  <ResponseCode>A</ResponseCode>
+                  <ApplicationSubmissionReason>NewApplication</ApplicationSubmissionReason>
+                  <CreditDecisionStatus>A</CreditDecisionStatus>
+                  <CreditDecisionDate>2025-07-19</CreditDecisionDate>
+                  <CreditDecisionExpirationDate>2026-01-15</CreditDecisionExpirationDate>
+                  <MaximumLoanIndicator>false</MaximumLoanIndicator>
+                  <UnknownLoanAmount>true</UnknownLoanAmount>
+                  <ApplicationCompleteDate>2025-08-08</ApplicationCompleteDate>
+                  <AwardRangeRequestedStartDate>2025-07</AwardRangeRequestedStartDate>
+                  <AwardRangeRequestedEndDate>2026-07</AwardRangeRequestedEndDate>
+                  <SchoolCreditBalanceOption>false</SchoolCreditBalanceOption>
+                  <CreditRequirementsMet>true</CreditRequirementsMet>
+               </Response>
+            </DLPLUS>
+            <Response>
+               <ResponseCode>A</ResponseCode>
+            </Response>
+         </Student>
+         <Response>
+            <ResponseCode>A</ResponseCode>
+         </Response>
+      </AttendedSchool>
+      <Response>
+         <ResponseCode>A</ResponseCode>
+      </Response>
+   </ReportingSchool>
+   <Response>
+      <DocumentTypeCode>SP</DocumentTypeCode>
+      <DocumentStatusCode>A</DocumentStatusCode>
+      <ProcessDate>2025-08-08</ProcessDate>
+   </Response>
+</CommonRecord>
+O*N95TG01003       ,CLS=CRSP26OP,XXX,BAT=000000000000000000002021-08-19T14:28:37.0400000001,

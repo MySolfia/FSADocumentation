@@ -1,0 +1,58 @@
+O*N05TG05525       ,CLS=CRBN26OP,XXX,BAT=000000000000000000002021-01-31T11:17:37.0800000001,
+<?xml version="1.0" encoding="UTF-8"?>
+<CommonRecord xmlns="http://www.ed.gov/FSA/COD/2024/v5.0c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.ed.gov/FSA/COD/2024/v5.0c CommonRecord5.0c.xsd">
+<TransmissionData>
+<DocumentID>2025-01-31T11:17:37.0800000001</DocumentID>
+<CreatedDateTime>2025-01-31T11:51:32.89</CreatedDateTime>
+<Source>
+<COD>
+<RoutingID>00000001</RoutingID>
+</COD>
+</Source>
+<Destination>
+<School>
+<RoutingID>10005525</RoutingID>
+</School>
+</Destination>
+<FullResponseCode>F</FullResponseCode>
+</TransmissionData>
+<ReportingSchool>
+<RoutingID>10005525</RoutingID>
+<AttendedSchool>
+<RoutingID>10005525</RoutingID>
+<Student>
+<Index>
+<SSN>001025625</SSN>
+<BirthDate>1967-09-30</BirthDate>
+<LastName>CHUN</LastName>
+</Index>
+<DLSubsidized>
+<FinancialAwardYear>2026</FinancialAwardYear>
+<FinancialAwardNumber>1</FinancialAwardNumber>
+<FinancialAwardID>001025625S26G05525001</FinancialAwardID>
+<Response>
+<ResponseCode>A</ResponseCode>
+<BookedAmount>1980.00</BookedAmount>
+<BookedDate>2021-06-08</BookedDate>
+</Response>
+</DLSubsidized>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</Student>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</AttendedSchool>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</ReportingSchool>
+<Response>
+<DocumentTypeCode>BN</DocumentTypeCode>
+<DocumentStatusCode>A</DocumentStatusCode>
+<ProcessDate>2025-01-31</ProcessDate>
+</Response>
+</CommonRecord>
+O*N95TG05525       ,CLS=CRBN26OP,XXX,BAT=000000000000000000002021-01-31T11:17:37.0800000001,

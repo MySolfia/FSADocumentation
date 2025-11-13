@@ -1,0 +1,61 @@
+O*N05TG02487       ,CLS=CRECMYOP,XXX,BAT=000000000000000000002021-01-31T14:17:55.0000000001,
+<?xml version="1.0" encoding="UTF-8"?>
+<CommonRecord xmlns="http://www.ed.gov/FSA/COD/2024/v5.0c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.ed.gov/FSA/COD/2024/v5.0c CommonRecord5.0c.xsd">
+<TransmissionData>
+<DocumentID>2025-01-31T14:17:55.0000000001</DocumentID>
+<CreatedDateTime>2025-01-31T14:19:20.24</CreatedDateTime>
+<Source>
+<COD>
+<RoutingID>00000001</RoutingID>
+</COD>
+</Source>
+<Destination>
+<School>
+<RoutingID>10002487</RoutingID>
+</School>
+</Destination>
+<FullResponseCode>F</FullResponseCode>
+</TransmissionData>
+<ReportingSchool>
+<RoutingID>10002487</RoutingID>
+<AttendedSchool>
+<RoutingID>10002487</RoutingID>
+<Student>
+<Index>
+<SSN>001036485</SSN>
+<BirthDate>1967-07-20</BirthDate>
+<LastName>BANTZ</LastName>
+</Index>
+<Name>
+<FirstName>CORRIE</FirstName>
+<Suffix>Sr</Suffix>
+</Name>
+<Counseling>
+<FinancialAwardYear>2026</FinancialAwardYear>
+<CounselingType>DLSEntranceCounseling</CounselingType>
+<CounselingSequenceNumber>1</CounselingSequenceNumber>
+<CounselingCompleteDate>2025-06-03</CounselingCompleteDate>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</Counseling>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</Student>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</AttendedSchool>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</ReportingSchool>
+<Response>
+<DocumentTypeCode>EC</DocumentTypeCode>
+<DocumentStatusCode>A</DocumentStatusCode>
+<ProcessDate>2025-01-31</ProcessDate>
+</Response>
+</CommonRecord>
+O*N95TG02487       ,CLS=CRECMYOP,XXX,BAT=000000000000000000002021-01-31T14:17:55.0000000001,

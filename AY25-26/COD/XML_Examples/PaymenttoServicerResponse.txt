@@ -1,0 +1,64 @@
+O*N05TG05426       ,CLS=CRPS26OP,XXX,BAT=000000000000000000002025-01-31T12:01:46.0300000001,
+<?xml version="1.0" encoding="UTF-8"?>
+<CommonRecord xmlns="http://www.ed.gov/FSA/COD/2024/v5.0c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.ed.gov/FSA/COD/2024/v5.0c CommonRecord5.0c.xsd">
+<TransmissionData>
+<DocumentID>2025-01-31T12:01:46.0300000001</DocumentID>
+<CreatedDateTime>2025-01-31T12:03:08.89</CreatedDateTime>
+<Source>
+<COD>
+<RoutingID>00000001</RoutingID>
+</COD>
+</Source>
+<Destination>
+<School>
+<RoutingID>10005426</RoutingID>
+</School>
+</Destination>
+<FullResponseCode>F</FullResponseCode>
+</TransmissionData>
+<ReportingSchool>
+<RoutingID>10005426</RoutingID>
+<AttendedSchool>
+<RoutingID>10005426</RoutingID>
+<Student>
+<Index>
+<SSN>101075247</SSN>
+<BirthDate>1968-04-17</BirthDate>
+<LastName>CHIMILIO</LastName>
+</Index>
+<DLSubsidized>
+<FinancialAwardYear>2026</FinancialAwardYear>
+<FinancialAwardID>101075247S26G05426001</FinancialAwardID>
+<Response>
+<ResponseCode>A</ResponseCode>
+<PaymentToServicerAmount>-199.00</PaymentToServicerAmount>
+<PaymentToServicerDate>2025-01-13</PaymentToServicerDate>
+</Response>
+<Disbursement Number="1">
+<DisbursementSequenceNumber>99</DisbursementSequenceNumber>
+<Response>
+<ResponseCode>A</ResponseCode>
+<PreviousSequenceNumber>1</PreviousSequenceNumber>
+</Response>
+</Disbursement>
+</DLSubsidized>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</Student>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</AttendedSchool>
+<Response>
+<ResponseCode>A</ResponseCode>
+</Response>
+</ReportingSchool>
+<Response>
+<DocumentTypeCode>PS</DocumentTypeCode>
+<DocumentStatusCode>A</DocumentStatusCode>
+<ProcessDate>2025-01-31</ProcessDate>
+</Response>
+</CommonRecord>
+O*N95TG05426       ,CLS=CRPS26OP,XXX,BAT=000000000000000000002025-01-31T12:01:46.0300000001,
