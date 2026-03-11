@@ -1,0 +1,35 @@
+﻿Field #,StructFieldName,DBTableFieldName,Valid Content
+1,StatementRecordType,statement_record_type,"""D"""
+2,PellSchoolAccountStatementBatchIdentifier,pell_school_account_statement_batch_identifier,"Batch Type = PB (Month-To-Date) or PF (Year-
+To-Date) or PH (Date Range)
+Cycle Indicator = 6 (for 2025 – 2026) Reporting
+School Pell ID = 000000-999999 Date Batch
+Created = CCYYMMDD
+Time Batch Created = HHMMSS"
+3,ReportingPellID,reporting_pell_id,000000-999999 6-digit Pell ID
+4,AttendingPellID,attending_pell_id,000000-999999 6-digit Pell ID
+5,SchoolEnrollmentCode,school_enrollment_code,00000000-99999999 8-digit OPE ID can be blank
+6,ReportingOPEID,reporting_ope_id,00000000-99999999 8-digit OPE ID
+7,RegionCode,region_code,01 to 99
+8,StateCode,state_code,"2 letter postal code for the state, can be blank"
+9,StartDate,start_date,"CCYYMMDD For Date Range requests only, blank for MTD and YTD"
+10,EndDate,end_date,CCYYMMDD
+11,ProcessDate,process_date,CCYYMMDD
+12,StudentCurrentSocialSecurityNumber,student_current_social_security_number,
+13,StudentFirstName,student_first_name,
+14,StudentMiddleName,student_middle_name,
+15,StudentLastName,student_last_name,
+16,StudentNameSuffix,student_name_suffix,
+17,AwardInitiallyFundedDate,award_initially_funded_date,
+18,DisbursementFundedDate,disbursement_funded_date,
+19,DisbursementDate,disbursement_date,
+20,DisbursementAmount,disbursement_amount,
+21,DisbursementActualNetAdjustment,disbursement_actual_net_adjustment,
+22,DisbursementNumber,disbursement_number,
+23,DisbursementSequenceNumber,disbursement_sequence_number,"1-65 school-assigned, 66-90 COD assigned or Web"
+24,TransactionType,transaction_type,
+25,AwardTotalYTDDisbursementAmount,award_total_ytd_disbursement_amount,
+26,VerificationStatus,verification_status,
+27,PotentialOverawardProcessStatus,potential_over_award_process_status,
+28,SystemGeneratedTransactionFlag,system_generated_transaction_flag,
+29,RecordCountSequenceNumber,record_count_sequence_number,
