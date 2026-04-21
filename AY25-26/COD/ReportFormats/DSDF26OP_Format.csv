@@ -1,0 +1,35 @@
+﻿Field #,Start,End,Length,Name,Valid Content,Justify
+1,1,1,1,StatementRecordType,D = Disbursement Activity Detail,Left
+2,2,24,23,SchoolAccountStatementBatchIdentifier,"Batch Type = AS, Cycle Indicator, SchoolCode = X00000-X99999,Batch Date, Batch Time",Left
+3,25,30,6,DirectLoanSchoolCode,"Direct Loan School Code, X00000-X99999 where X = G or E",Left
+4,31,32,2,RegionCode,"2 digit region code of the school, 01-99",Right
+5,33,34,2,StateCode,"2 letter state code of the school, Uppercase, can be blank",Left
+6,35,42,8,EndDate,"CCYYMMDD, end of the current statement period, this statement represents activity up to and through this date only",Date
+7,43,50,8,ProcessDate,"CCYYMMDD, Date report processed at COD",Date
+8,51,71,21,AwardIdentifier,"Created at the time of origination, <SSN><Loan Type Code><2 digit program year><school code><Lean sequence number 001-999>",Left
+9,72,79,8,LoanBookedDate,"CCYYMMDD, may be blank if loan is not booked",Date
+10,80,87,8,DisbursementBookedDate,"CCYYMMDD, may be blank if the loan is not booked",Date
+11,88,93,6,DIsbursementActualGrossAmount,Numeric 0 - 999999 in dollars,Right
+12,94,98,5,DisbursementActualLoanFeeAmount,Numeric >= 0 in dollars,RIght
+13,99,103,5,DIsbursementActualInterestRebateAmount,Numeric >= 0 in dollars,Right
+14,104,109,6,DisbursementActualNetAmount,Numeric 0 - 999999 in dollars,Right
+15,110,116,7,DIsbursementActualNetAdjustment,-999999 to 0999999 may be blank,Right
+16,117,118,2,DisbursementNumber,1-20 for PLUS. 1-20 for Subsidized/Unsubsidized,Right
+17,119,120,2,DIsbursementSequenceNumber,1-99,Right
+18,121,121,1,TransactionType,"A=Adjustment, D=Disbursement",Left
+19,122,129,8,TransactionDate,CCYYMMDD,Date
+20,130,135,6,TotalGrossAmount,Numeric 0 - 999999 in dollars,Right
+21,136,140,5,TotalLoanFeeAmount,Numeric 0 - 999999 in dollars,Right
+22,141,145,5,TotalInterestRebateAmount,Numeric 0 - 999999 in dollars,Right
+23,146,151,6,TotalNetAmount,Numeric 0 - 999999 in dollars,Right
+24,152,186,35,BorrowerFirstName,,Left
+25,187,221,35,BorrowerMiddleName,,Left
+26,222,256,35,BorrowerLastName,,Left
+27,257,266,10,BorrowerSuffix,,Left
+28,267,301,35,StudentFirstName,,Left
+29,302,336,35,StudentMiddleName,,Left
+30,337,371,35,StudentLastName,,Left
+31,372,381,10,StudentSuffix,,Left
+32,382,411,30,ServicerName,,Left
+33,412,444,33,Filler,,
+34,445,450,6,RecordCountSequenceNumber,"Record counter for each record in the SAS file, 000001-999999",Right
